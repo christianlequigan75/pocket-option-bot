@@ -1,0 +1,63 @@
+# Pocket Option Trading Bot
+
+A Python-based automated trading bot for Pocket Option with support for 5s, 10s, 15s, and 30s trades.
+
+## Quick Start
+
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Update `config.py` with your credentials
+4. Run: `python main.py`
+
+## Features
+
+- ✅ Support for 5s, 10s, 15s, 30s expiry times
+- ✅ Multiple trading strategies (RSI, MA, Momentum, MACD)
+- ✅ Risk management features
+- ✅ Demo account support
+- ✅ Comprehensive logging
+
+## Configuration
+
+Edit `config.py` before running:
+
+```python
+POCKET_OPTION_EMAIL = "your_email@example.com"
+POCKET_OPTION_PASSWORD = "your_password"
+DEMO_MODE = True  # Use demo account
+TRADE_AMOUNT = 10
+STRATEGY = "RSI"
+ASSET = "BTCUSD"
+EXPIRY_TIMES = [5, 10, 15, 30]
+CURRENT_EXPIRY = 30
+```
+
+## Usage
+
+```bash
+python main.py
+```
+
+## Project Files
+
+- `main.py` - Entry point
+- `config.py` - Configuration settings
+- `trading_bot.py` - Main bot logic
+- `strategies.py` - Trading strategies
+- `indicators.py` - Technical indicators
+- `pocket_option_api.py` - Pocket Option API
+- `utils.py` - Utility functions
+- `logging_config.py` - Logging setup
+- `requirements.txt` - Python dependencies
+
+## ⚠️ Important
+
+- Always test with DEMO_MODE = True first
+- Never invest more than you can afford to lose
+- Binary options trading is high risk
+- Check local regulations before using
+
+---
+
+**Created by:** christianlequigan75  
+**Start Date:** 2026-07-08
